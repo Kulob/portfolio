@@ -42,7 +42,7 @@ const Contact = () => {
           <article className="contact__option">
             <BsTelegram className='contact__option-icon'/>
             <h4>Telegram</h4>
-            <h5>@Kulob55</h5>
+            <h5>@Mirovon55</h5>
             {/* <a href="https://api.whatsapp.com/send?phone+79881425281" target="_blank">Send a message</a> */}
             <a href="https://web.telegram.org/" target="_blank">Send a message</a>
           </article>

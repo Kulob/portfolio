@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.scss'
-import { FaFacebookF } from "react-icons/fa";
+import { BsTelegram } from "react-icons/bs";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { BsTwitter } from "react-icons/bs";
 
@@ -18,7 +18,7 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://facebook.com"><FaFacebookF/></a>
+        <a href="https://t.me/Mirovon55"><BsTelegram/></a>
         <a href="https://instagram.com"><AiOutlineInstagram/></a>
         <a href="https://twitter.com"><BsTwitter/></a>
       </div>
