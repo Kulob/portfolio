@@ -20,21 +20,21 @@ const About = () => {
 
         <div className="about__content">
           <div className="about__cards">
-            <article className="about__card">
+            {/* <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
               <small>1+ Years Working</small>
-            </article>
+            </article> */}
             {/* <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Experience</h5>
               <small>200+ Worldwide</small>
             </article> */}
-            <article className="about__card">
+            {/* <article className="about__card">
               <AiOutlineFolderOpen className="about__icon" />
               <h5>Experience</h5>
               <small>20+ Completed</small>
-            </article>
+            </article> */}
           </div>
           <p>
             Здравствуйте! Я - фронтенд-разработчик с более чем 1,5-летним опытом работы в этой

@@ -6,7 +6,7 @@ import IMG2 from '../../assets/portfolio2.png';
 import IMG3 from '../../assets/portfolio3.png';
 import IMG4 from '../../assets/portfolio4.png';
 import IMG5 from '../../assets/portfolio5.png';
-import IMG6 from '../../assets/portfolio6.jpg';
+import IMG6 from '../../assets/portfolio6.png';
 import { AiOutlineArrowLeft, AiOutlineArrowRight, AiOutlineCloseCircle } from 'react-icons/ai';
 
 const Portfolio = () => {
@@ -21,7 +21,6 @@ const Portfolio = () => {
     {
       id: 1,
       image: IMG1,
-      image2: IMG_2,
       title: 'React Pizza',
       github: 'https://github.com/Kulob/React-Pizza',
       demo: 'https://dribbble.com/shots/19773335-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps',
@@ -50,15 +49,15 @@ const Portfolio = () => {
     {
       id: 5,
       image: IMG5,
-      title: 'Eclipse - Figma dashboard UI kit for data design web apps',
-      github: 'https://github.com/Kulob',
+      title: 'React Booking',
+      github: 'https://github.com/Kulob/mern-hotel.git',
       // demo: 'https://dribbble.com/shots/19773335-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps'
     },
     {
       id: 6,
       image: IMG6,
-      title: 'Eclipse - Figma dashboard UI kit for data design web apps',
-      github: 'https://github.com/Kulob',
+      title: 'React Blog',
+      github: 'https://github.com/Kulob/mern-fullstack.git',
       // demo: 'https://dribbble.com/shots/19773335-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps'
     },
   ];
