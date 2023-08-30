@@ -8,7 +8,6 @@ import IMG4 from '../../assets/portfolio4.png';
 import IMG5 from '../../assets/portfolio5.png';
 import IMG6 from '../../assets/portfolio6.jpg';
 import { AiOutlineArrowLeft, AiOutlineArrowRight, AiOutlineCloseCircle } from 'react-icons/ai';
-import Slider from 'infinite-react-carousel';
 
 const Portfolio = () => {
   const [openModel, setOpenModel] = useState(false);
