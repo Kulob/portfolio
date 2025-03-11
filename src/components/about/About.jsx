@@ -37,18 +37,18 @@ const About = () => {
             </article>
           </div>
           <p>
-            Hello, I am a frontend developer with over 2 years of experience in
-            creating modern and functional web interfaces. My goal is to develop
-            user-friendly, performant and aesthetically pleasing products that
-            fulfil user needs and business goals. I specialise in building
-            components and applications using React, Redux, Zustand and other
-            modern tools. I am confident with TypeScript, which helps me write
-            robust and scalable code.
+            Hello, I am a front-end developer with over 2.5 years of experience
+            in creating modern and functional web interfaces. My goal is to
+            develop user-friendly, high-performing, and aesthetically pleasing
+            products that meet user needs and business objectives. I specialize
+            in building components and applications using React, Redux, Zustand,
+            and other modern tools. I am proficient in TypeScript, which enables
+            me to write robust and scalable code.
             <br />
             <b>Frontend development:</b> React, Redux, Zustand, Redux Toolkit,
             JavaScript (ES6+), TypeScript, Next.js, React Query, React Hook
-            Forms. <br />
-            <b>Backend:</b> Express.js, Node.js, Git, Nest.js <br />
+            Forms, Zod <br />
+            <b>Backend:</b> Express.js, Node.js, Git <br />
             <b>Databases:</b> MongoDB <br />
             <b>Layout:</b> HTML5, CSS3, SCSS/SASS, Tailwind <br />
             <b> UI libraries:</b> MUI, Zod, Ant Design, Chakra UI Cross-browser

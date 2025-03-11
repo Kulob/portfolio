@@ -6,10 +6,8 @@ import IMG3 from '../../assets/photo_2025-01-07 14.50.44.jpeg';
 import IMG4 from '../../assets/aion.jpeg';
 import IMG5 from '../../assets/portfolio5.png';
 import IMG6 from '../../assets/portfolio6.png';
-import { AiOutlineCloseCircle } from 'react-icons/ai';
 
 const Portfolio = () => {
-  const [openModel, setOpenModel] = useState(false);
 
   const data = [
     {
@@ -24,7 +22,7 @@ const Portfolio = () => {
       image: IMG2,
       title: 'Zypl.ai',
       github: 'https://github.com/Kulob',
-      demo: 'https://zypl.ai/en'
+      demo: 'https://zypl.ai'
     },
     {
       id: 3,
@@ -37,7 +35,7 @@ const Portfolio = () => {
       id: 4,
       image: IMG4,
       title: 'Aion.tj',
-      github: 'https://github.com/Kulob/Planes.git',
+      github: 'https://github.com/Kulob',
       demo: 'https://aion.tj/'
     },
     {
