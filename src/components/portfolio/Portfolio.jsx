@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Portfolio.scss';
-import IMG1 from '../../assets/portfolio1.png';
+import IMG1 from '../../assets/portfolio1.jpeg';
 import IMG2 from '../../assets/zypl website.jpg';
 import IMG3 from '../../assets/photo_2025-01-07 14.50.44.jpeg';
 import IMG4 from '../../assets/aion.jpeg';
@@ -13,8 +13,8 @@ const Portfolio = () => {
     {
       id: 1,
       image: IMG1,
-      title: 'React Pizza',
-      github: 'https://github.com/Kulob/React-Pizza',
+      title: 'Lucid.ai',
+      github: 'https://github.com/Kulob',
       demo: 'https://github.com/Kulob',
     },
     {
