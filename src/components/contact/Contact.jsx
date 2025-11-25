@@ -1,10 +1,8 @@
-import React from 'react'
-import './Contact.scss'
-import { AiOutlineMail } from "react-icons/ai";
-import { AiOutlineMessage } from "react-icons/ai";
-import { BsTelegram } from "react-icons/bs";
+import emailjs from 'emailjs-com';
 import { useRef } from 'react';
-import emailjs from 'emailjs-com'
+import { AiOutlineMail, AiOutlineMessage } from "react-icons/ai";
+import { BsTelegram } from "react-icons/bs";
+import './Contact.scss';
 
 const Contact = () => {
   const form = useRef();
@@ -31,20 +29,27 @@ const Contact = () => {
             <AiOutlineMail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>xsafarmad2001@gmail.com</h5>
-            <a href="mailto:xsafarmad2001@gmail.com" target="_blank"> Send a message</a>
+            <a href="mailto:xsafarmad2001@gmail.com" target="_blank" rel="noreferrer">
+              Send a message
+            </a>
           </article>
+
           <article className="contact__option">
             <AiOutlineMessage className='contact__option-icon'/>
             <h4>Messenger</h4>
             <h5>Mirovonzoda</h5>
-            <a href="mailto:xsafarmad2001@gmail.com" target="_blank">Send a message</a>
+            <a href="mailto:xsafarmad2001@gmail.com" target="_blank" rel="noreferrer">
+              Send a message
+            </a>
           </article>
+
           <article className="contact__option">
             <BsTelegram className='contact__option-icon'/>
             <h4>Telegram</h4>
             <h5>@Mirovon55</h5>
-            {/* <a href="https://api.whatsapp.com/send?phone+79881425281" target="_blank">Send a message</a> */}
-            <a href="https://web.telegram.org/" target="_blank">Send a message</a>
+            <a href="https://web.telegram.org/" target="_blank" rel="noreferrer">
+              Send a message
+            </a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>

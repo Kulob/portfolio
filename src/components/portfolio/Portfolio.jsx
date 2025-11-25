@@ -1,11 +1,10 @@
-import React, { useState } from 'react';
-import './Portfolio.scss';
-import IMG1 from '../../assets/portfolio1.jpeg';
-import IMG2 from '../../assets/zypl website.jpg';
-import IMG3 from '../../assets/photo_2025-01-07 14.50.44.jpeg';
 import IMG4 from '../../assets/aion.jpeg';
+import IMG3 from '../../assets/photo_2025-01-07 14.50.44.jpeg';
+import IMG1 from '../../assets/portfolio1.jpeg';
 import IMG5 from '../../assets/portfolio5.png';
 import IMG6 from '../../assets/portfolio6.png';
+import IMG2 from '../../assets/zypl website.jpg';
+import './Portfolio.scss';
 
 const Portfolio = () => {
 

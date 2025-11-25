@@ -1,7 +1,4 @@
-import React from "react";
-import { BsLinkedin } from "react-icons/bs";
-import { BsGithub } from "react-icons/bs";
-import { ImDribbble } from "react-icons/im";
+import { BsGithub, BsLinkedin } from "react-icons/bs";
 
 const HeaderSocials = () => {
   return (
@@ -9,10 +6,11 @@ const HeaderSocials = () => {
       <a
         href="https://www.linkedin.com/in/khudobakhsh-m-1973b72a9/"
         target="_blank"
+        rel="noreferrer"
       >
         <BsLinkedin />
       </a>
-      <a href="https://github.com/Kulob" target="_blank">
+      <a href="https://github.com/Kulob" target="_blank" rel="noreferrer">
         <BsGithub />
       </a>
       {/* <a href="https://dribble.com" target='_blank'><ImDribbble/></a> */}

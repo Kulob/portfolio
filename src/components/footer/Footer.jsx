@@ -1,8 +1,6 @@
-import React from 'react'
-import './Footer.scss'
-import { BsTelegram } from "react-icons/bs";
 import { AiOutlineInstagram } from "react-icons/ai";
-import { BsTwitter } from "react-icons/bs";
+import { BsTelegram, BsTwitter } from "react-icons/bs";
+import './Footer.scss';
 
 const Footer = () => {
   return (
@@ -10,7 +8,7 @@ const Footer = () => {
       <a href="#" className='footer__logo'>Mirovon</a>
 
       <ul className='permalinks'>
-        <li><a href="#">Home</a></li>
+        <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
