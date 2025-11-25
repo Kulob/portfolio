@@ -1,9 +1,11 @@
+
 import IMG4 from '../../assets/aion.jpeg';
 import IMG3 from '../../assets/photo_2025-01-07 14.50.44.jpeg';
 import IMG1 from '../../assets/portfolio1.jpeg';
 import IMG5 from '../../assets/portfolio5.png';
 import IMG6 from '../../assets/portfolio6.png';
 import IMG2 from '../../assets/zypl website.jpg';
+
 import './Portfolio.scss';
 
 const Portfolio = () => {
@@ -52,30 +54,39 @@ const Portfolio = () => {
       demo: 'https://github.com/Kulob'
     },
   ];
+
   return (
     <section id="portfolio">
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-        {data.map((photo, i) => {
-          return (
-            <article key={photo.id} className="portfolio__item">
-              <div  className="portfolio__item-image">
-                <img src={photo.image} alt="portfolio image" />
-              </div>
-              <h3>{photo.title}</h3>
-              <div className="portfolio__item-cta">
-                <a href={photo.github} className="btn" target="_blank">
-                  Github
-                </a>
-                <a href={photo.demo} className="btn btn-primary">
-                  Live Demo
-                </a>
-              </div>
-            </article>
-          );
-        })}
+        {data.map((item) => (
+          <article key={item.id} className="portfolio__item">
+            <div className="portfolio__item-image">
+              <img src={item.image} alt={item.title} />
+            </div>
+            <h3>{item.title}</h3>
+            <div className="portfolio__item-cta">
+              <a 
+                href={item.github} 
+                className="btn" 
+                target="_blank" 
+                rel="noreferrer"
+              >
+                Github
+              </a>
+              <a 
+                href={item.demo} 
+                className="btn btn-primary" 
+                target="_blank" 
+                rel="noreferrer"
+              >
+                Live Demo
+              </a>
+            </div>
+          </article>
+        ))}
       </div>
     </section>
   );

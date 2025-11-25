@@ -5,7 +5,7 @@ import './Footer.scss';
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className='footer__logo'>Mirovon</a>
+     <a href="#home" className='footer__logo'>Mirovon</a>
 
       <ul className='permalinks'>
         <li><a href="#home">Home</a></li>
