@@ -22,7 +22,7 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <small>4+ Years Working</small>
             </article>
             <article className="about__card">
               <FiUsers className="about__icon" />
@@ -36,9 +36,9 @@ const About = () => {
             </article>
           </div>
           <p>
-            Hello, Experienced Front End Developer with a focus on Fintech projects, boasting over three years of dedicated experience in the field. My expertise lies in crafting innovative solutions for complex financial systems, leveraging advanced technologies and industry best practices. I excel in developing custom UI component libraries, meticulously crafted to ensure seamless integration and intuitive user interfaces. Working closely with design tools like Figma, I collaborate with stakeholders to set up robust architectures that align with project goals and user requirements.
+            Hello, Experienced Front End Developer with a focus on Fintech projects, boasting over four years of dedicated experience in the field. My expertise lies in crafting innovative solutions for complex financial systems, leveraging advanced technologies and industry best practices. I excel in developing custom UI component libraries, meticulously crafted to ensure seamless integration and intuitive user interfaces. Working closely with design tools like Figma, I collaborate with stakeholders to set up robust architectures that align with project goals and user requirements.
             <br />
-            <b>Frontend development:</b> React, Redux, Zustand, Redux Toolkit,
+            <b>Frontend development:</b> React, Redux, Zustand, Redux Toolkit,TanStack Query,
             JavaScript (ES6+), TypeScript, Next.js, React Query, React Hook
             Forms, Zod <br />
             <b>Backend:</b> Express.js, Node.js, Git <br />
