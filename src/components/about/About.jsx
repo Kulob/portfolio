@@ -38,14 +38,16 @@ const About = () => {
           <p>
             Hello, Experienced Front End Developer with a focus on Fintech projects, boasting over four years of dedicated experience in the field. My expertise lies in crafting innovative solutions for complex financial systems, leveraging advanced technologies and industry best practices. I excel in developing custom UI component libraries, meticulously crafted to ensure seamless integration and intuitive user interfaces. Working closely with design tools like Figma, I collaborate with stakeholders to set up robust architectures that align with project goals and user requirements.
             <br />
-            <b>Frontend development:</b> React, Redux, Zustand, Redux Toolkit,TanStack Query,
-            JavaScript (ES6+), TypeScript, Next.js, React Query, React Hook
-            Forms, Zod <br />
-            <b>Backend:</b> Express.js, Node.js, Git <br />
-            <b>Databases:</b> MongoDB <br />
-            <b>Layout:</b> HTML5, CSS3, SCSS/SASS, Tailwind <br />
-            <b> UI libraries:</b> MUI, Zod, Ant Design, Chakra UI Cross-browser
-            and adaptive layout <br />
+            <b>Core:</b> React 18, Next.js, TypeScript, JavaScript (ES2022+) <br />
+            <b>State &amp; data:</b> Redux Toolkit, Zustand, TanStack Query, Axios,
+            WebSockets, REST API, Zod, React Hook Form <br />
+            <b>Markup &amp; styling:</b> HTML5, CSS3, SCSS/SASS, Tailwind CSS,
+            responsive &amp; cross-browser layout <br />
+            <b>UI libraries:</b> MUI, Ant Design, Chakra UI, Radix UI, Chart.js <br />
+            <b>Tooling:</b> Vite, Webpack, Git, Docker, CI/CD, Jest, React Testing
+            Library, Figma, i18next <br />
+            <b>Also:</b> Node.js, Express.js, MongoDB (basic — enough to build and
+            debug an API) <br />
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
