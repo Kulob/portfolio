@@ -5,8 +5,11 @@
   "type": "module",
   "dependencies": {
     "emailjs-com": "^3.2.0",
+    "i18next": "^26.4.1",
+    "i18next-browser-languagedetector": "^8.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-i18next": "^17.0.13",
     "react-icons": "^4.7.1",
     "react-router-dom": "^6.8.1",
     "sass": "^1.56.1",
