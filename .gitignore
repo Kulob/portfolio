@@ -25,3 +25,7 @@ yarn-error.log*
 
 # local env
 .env
+
+.superpowers/
+docs/superpowers/
+/docs/superpowers/
