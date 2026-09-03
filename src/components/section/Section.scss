@@ -1,4 +1,8 @@
+/* Spacing lives on the shell class, never on the bare `section` element:
+   the timeline nests a <section> per project, and an element selector gave
+   each of them the full between-sections margin. */
 .section {
+  margin-top: 8rem;
   scroll-margin-top: 5rem;
 
   &__eyebrow {
@@ -35,7 +39,17 @@
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .section {
+    margin-top: 6rem;
+  }
+}
+
 @media screen and (max-width: 600px) {
+  .section {
+    margin-top: 4.5rem;
+  }
+
   .section__title {
     margin-bottom: 2rem;
   }

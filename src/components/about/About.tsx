@@ -44,7 +44,7 @@ export const About = () => {
           <p className="about__meta">
             <FiMapPin aria-hidden /> {t('about.location')}
           </p>
-          <p className="about__availability">{t('about.availability')}</p>
+          <p className="about__availability"></p>
 
           <a href="#contact" className="btn btn-primary">
             {t('hero.talk')}
