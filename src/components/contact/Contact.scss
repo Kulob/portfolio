@@ -1,57 +1,120 @@
-.contact__container{
+.contact__container {
   display: grid;
   grid-template-columns: 35% 50%;
   gap: 15%;
+  align-items: start;
 }
-.contact__options{
+
+.contact__options {
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
 }
-.contact__option{
+
+.contact__option {
   background: var(--color-bg-variant);
   padding: 1.2rem;
   border-radius: 1.2rem;
   text-align: center;
   border: 1px solid transparent;
-  transition: all 400ms ease;
-  &:hover{
+  transition: var(--transition);
+
+  &:hover {
     background: transparent;
     border-color: var(--color-primary);
   }
-  &-icon{
+
+  &-icon {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
+    color: var(--color-primary);
   }
-  a{
+
+  h5 {
+    color: var(--color-light);
+    font-size: 0.85rem;
+    word-break: break-word;
+  }
+
+  a {
     margin-top: 0.7rem;
     display: inline-block;
     font-size: 0.8rem;
   }
 }
 
-form{
+.contact__form {
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
+
+  input,
+  textarea {
+    width: 100%;
+    padding: 1.25rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid var(--color-primary-variant);
+    resize: none;
+    color: var(--color-white);
+    font: inherit;
+    font-size: 0.95rem;
+    transition: border-color 200ms ease;
+
+    &::placeholder {
+      color: var(--color-light);
+    }
+
+    &:focus {
+      outline: none;
+      border-color: var(--color-primary);
+    }
+  }
+
+  button[type='submit'] {
+    align-self: flex-start;
+    font: inherit;
+
+    &:disabled {
+      opacity: 0.6;
+      cursor: progress;
+    }
+  }
 }
-input, textarea{
-  width: 100%;
-  padding: 1.5rem;
-  border-radius: 0.5rem;
-  background: transparent;
-  border: 2px solid var(--color-primary-variant);
-  resize: none;
-  color: var(--color-white);
+
+/* Off-screen rather than `display: none`, which many bots skip. */
+.contact__honeypot {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
 }
-@media screen and (max-width:1024px) {
-  .contact__container{
+
+.contact__status {
+  min-height: 1.5rem;
+  font-size: 0.88rem;
+
+  &--success {
+    color: #4ade80;
+  }
+
+  &--error {
+    color: #f87171;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .contact__container {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
 }
-@media screen and (max-width:1024px) {
-  .contact__container{
-    width: var(--container-width-sm);
+
+@media screen and (max-width: 600px) {
+  .contact__form button[type='submit'] {
+    align-self: stretch;
+    text-align: center;
   }
 }

@@ -4,31 +4,27 @@
   "private": true,
   "type": "module",
   "dependencies": {
-    "emailjs-com": "^3.2.0",
+    "@emailjs/browser": "^4.4.1",
     "i18next": "^26.4.1",
     "i18next-browser-languagedetector": "^8.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-i18next": "^17.0.13",
     "react-icons": "^4.7.1",
-    "react-router-dom": "^6.8.1",
-    "sass": "^1.56.1",
-    "swiper": "^8.4.4"
+    "sass": "^1.56.1"
   },
   "devDependencies": {
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
     "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^7.0.2",
     "vite": "^5.1.6"
   },
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "build": "tsc --build && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --build --force"
   },
   "engines": {
     "node": ">=18"
@@ -45,8 +41,8 @@
       "last 1 safari version"
     ]
   },
-  "description": "React portfolio site powered by Vite.",
-  "main": "src/main.jsx",
+  "description": "Bilingual (RU/EN) React + TypeScript portfolio, built with Vite.",
+  "main": "src/main.tsx",
   "author": "",
   "license": "ISC"
 }
