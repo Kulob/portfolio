@@ -154,8 +154,6 @@ img {
 
 @media screen and (max-width: 600px) {
   .container {
-    /* This read `--container-width-ms` — a typo that left the mobile container
-       with an invalid width. */
     width: var(--container-width-sm);
   }
 

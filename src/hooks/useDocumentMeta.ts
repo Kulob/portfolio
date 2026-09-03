@@ -6,11 +6,7 @@ const setMeta = (selector: string, content: string): void => {
   if (element) element.content = content;
 };
 
-/**
- * Keeps the document title and description aligned with the active language.
- * Without this the tab and every social preview stay in whichever language the
- * HTML shipped with.
- */
+
 export const useDocumentMeta = (): void => {
   const { t, i18n } = useTranslation();
 

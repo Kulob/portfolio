@@ -40,8 +40,6 @@ export const useActiveSection = (
         }
       }
 
-      // At the very bottom the footer takes over the viewport, which would
-      // otherwise drop the highlight off the last section.
       const atBottom =
         window.scrollY + viewportHeight >= document.documentElement.scrollHeight - 2;
       const last = ids.at(-1);

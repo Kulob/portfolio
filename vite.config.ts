@@ -6,7 +6,6 @@ export default defineConfig({
   plugins: [react()],
   css: {
     preprocessorOptions: {
-      // Vite 5 still defaults to Sass's deprecated legacy JS API.
       scss: { api: 'modern-compiler' },
     },
   },

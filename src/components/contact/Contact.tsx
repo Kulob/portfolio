@@ -28,7 +28,6 @@ export const Contact = () => {
 
     const honeypot = new FormData(element).get(HONEYPOT_FIELD);
     if (typeof honeypot === 'string' && honeypot.length > 0) {
-      // Report success so the bot has nothing to learn from, and send nothing.
       setStatus('success');
       element.reset();
       return;

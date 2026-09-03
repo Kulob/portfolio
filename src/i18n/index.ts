@@ -24,11 +24,8 @@ void i18n
     },
     fallbackLng: DEFAULT_LOCALE,
     supportedLngs: LOCALES,
-    // `ru-RU` and `ru` should resolve to the same bundle.
     load: 'languageOnly',
     detection: {
-      // `?lng=ru` makes a localized link shareable; after that the visitor's
-      // own choice wins, and only then the browser's preference.
       order: ['querystring', 'localStorage', 'navigator'],
       lookupQuerystring: 'lng',
       lookupLocalStorage: STORAGE_KEY,
@@ -38,11 +35,6 @@ void i18n
     returnObjects: true,
   });
 
-/**
- * Keeps `<html lang>` in step with the active language, including the initial
- * detection, so screen readers and search engines see the language the page is
- * actually rendered in.
- */
 const syncDocumentLanguage = (language: string): void => {
   document.documentElement.lang = isLocale(language) ? language : DEFAULT_LOCALE;
 };

@@ -4,7 +4,6 @@ import type { Locale } from '../i18n';
 
 interface Resume {
   readonly url: string;
-  /** Vite content-hashes the built asset; `download` restores a readable name. */
   readonly filename: string;
 }
 
